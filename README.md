@@ -2,7 +2,7 @@
 # Part 1
 
 
-### Demo: 
+### Demo: https://brunno-dasilva.github.io/waffle-lab-SEIR/
 
 ## Setup
 1. Navigate to your `student_labs` folder.
