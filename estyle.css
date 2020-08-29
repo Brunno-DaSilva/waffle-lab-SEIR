@@ -17,6 +17,7 @@ h1 {
   font-family: "Pacifico", cursive;
   color: #ffffff;
   font-size: 4rem;
+  z-index: 999;
 }
 button {
   background: transparent;
@@ -25,9 +26,23 @@ button {
   padding: 1rem 2rem;
   transition: ease-in-out 0.5s;
   font-size: 1.2rem;
+  z-index: 999;
 }
 
 button:hover {
   cursor: pointer;
-  background: #108da3;
+  background: #333333;
+}
+
+.landing-page__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.534);
+  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC)
+    repeat scroll transparent\9; /* ie fallback png background image */
+  z-index: 989;
+  color: white;
 }
