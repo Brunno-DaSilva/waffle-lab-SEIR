@@ -1,6 +1,9 @@
 # Morning Lab
 # Part 1
 
+
+### Demo: 
+
 ## Setup
 1. Navigate to your `student_labs` folder.
 1. Create a  file called `waffle_lab.js`. Use this file for doing the activity below.

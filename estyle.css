@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 body {
   overflow: hidden;
   width: 100vw;
@@ -5,4 +7,27 @@ body {
   background-image: url("./waffleThing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+  font-size: 4rem;
+}
+button {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 1rem 2rem;
+  transition: ease-in-out 0.5s;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #108da3;
 }

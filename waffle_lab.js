@@ -72,4 +72,4 @@ const readyToEat = () => {
   alert("Your Waffle is ready! Don't forget to add some Syrup, Bon Appetit! ");
   start();
 };
-start();
+// start();
