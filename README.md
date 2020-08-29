@@ -1,98 +1,55 @@
-<img src="https://i.imgur.com/sX12DTc.png">
+# Morning Lab
+# Part 1
 
-# Project 4 Assessment - Rails
+## Setup
+1. Navigate to your `student_labs` folder.
+1. Create a  file called `waffle_lab.js`. Use this file for doing the activity below.
 
-The goal of this project assessment is to gauge your ability to develop a minimal full-stack web application using the Rails and React.
+<hr>
 
-- Create and configure a Rails Project
-- Create and configure a React project
+## Psuedo Code: Review
 
-### DEMO
+**Question** In your own words what is Pusedo Code? Reply to the slack channel with your own definition of Psuedo Code.
 
-The instructor will now demonstrate the app you will be building.
+## Activity
+1. Pseudo code the process for making waffles (the frozen kind) with syrup.
+1. Start simply with broad commands (put syrup on the waffles)
+1. As time permits, make each broad command more specific (pull syrup from refrigerator, warm the syrup before you use it, open the lid on the syrup, pour the syrup on top of waffle).
+1. Once you've done that, take the time to think this over as if you were writing it as an application. Comment each step and determine what it would be in your code from the following:
 
-### OVERALL APPLICATION REQUIREMENTS
+    - Assertions
+        - This is a statement that is expected to be true (Boolean-valued function, i.e. a true–false expression), or in this instance, what we want to get to a true point ("Take the waffles from the freezer" would be an assertion after we confirmed that we had waffles in the freezer that we could remove).
+    - Conditionals
+        - A question is asked.  This tells us a conditional is coming
+        - Looks for words like "if, unless, otherwise"
+        - Think of all the possible outcomes of the situation
+            - Each outcome represents an `if`, `else if`, or `else` statement
+    - Loops
+        - Something is done multiple times
+        - Look for words like "while, as long as, until"
+    - Functions
+        - We've oversimplified a step which could be broken out into multiple steps.
 
-As you saw, the application consist of:
+1. Identify data types
+    - whenever you have a conditional, loop, or something you're keeping track of, identify its type
+        - text (strings)
+        - numbers (ints/floats)
+        - true/false values (booleans)
+        - collections of stuff (arrays)
 
-- A **SINGLE** page (template) with a title of "To Do List", that displays all to do items in the database and their users.
-- A Rails backend that has a one to many relationship
-    - You should have `Users` and `Todos`
-    - A `User` can have many `Todos`
-- Your API data should show the associations between your data so that on the front end you can query your data.
-- Your front end should end up looking something like this
+1. (Optional) Try to convert each line into something that resembles code
 
-<img width="600px" src="https://i.imgur.com/mHlWt2p.png">
+# Part 2
 
-The layout and styling of this assessment is secondary to its functionality. As long as the app behaves as required and displays all elements specified, you will pass.
+## Setup
+1. Navigate to your `student_labs` folder.
+1. Use your `morning_lab.js` file and create an `index.html`. Use this file for doing the activity below.
+1. Make sure to connect the js file inside your html and test to make sure that it's connected with a console log.
 
+## Activity
+1. Write a program that implements your pseudo coded waffles with syrup process. 
+1. **BONUS** As an extension, create an interactive application in your browser.
 
-### PROCESS
-
-This assessment is an **individual** assignment - no collaboration please.
-
-It's "open book" - you may reference anything on your computer, Google, use notes, etc. 
-
-It is anticipated that it will take approximately **60 minutes** to complete this assessment. Stop after 60 minutes!
-
-When finished you will demo your app to an instructor and slack them the link to your personal GitHub repo.
-
-## Instructions & Estimated Time Guidelines (You've Got This!)
-
-Please follow the following steps in order:
-
-- **STEP 1 - Prepare** (&asymp; 5 minutes)
-- **STEP 2 - Set Up the App** (&asymp; 10 minutes)
-- **STEP 3 - Implement the App's Requirements** (&asymp; 30 minutes)
-- **STEP 4 - Demo & Slack Link to Your Instructor**
-
-> The above times are just guidelines
-
-## Assessment Steps to Complete
-
-### STEP 1 - Prepare (&asymp; 5 minutes)
-
-Prepare how you will scaffold your `Rails` app and remind yourself how to query data in `React`
-
-### STEP 2 - Set Up the App (&asymp; 10 minutes)
-
-Follow the standard workflow for creating a new Rails app.
-
-This app will require two Models that have a one-to-many relationship.
-
-### STEP 3 - Implement the App's Requirements (&asymp; 30 minutes)
-
-Create the API backend first and make sure to test it out in your browser. You want it to look something like this.
-
-<img src="https://i.imgur.com/0v9104y.png" alt="backend">
-
-Next, use Create React App to create your React front end and fetch your data from your api. 
-
-Make sure to update your `package.json` within Create React App so that the start script starts your app on a different port
-
-```js
-"scripts": {
-    "start": "PORT=3006 react-scripts start",
-```
-
-Your front end doesn't need to have a ton of styling. It should look something like this: 
-
-<img width="600px" src="https://i.imgur.com/mHlWt2p.png">
-
-<br>
-
-**Congrats, you're done!**
-
-### STEP 4 - Demo & Slack Link to Your Instructor
-
-**Take your computer and demo the app's functionality to your instructor.**
-
-**Message us and we will put you in a breakout room with an instructor**
-
-Do a final commit and push to your GitHub.
-
-**Slack your app's GitHub link to your instructors**
-
-
-
-
+## Hungry for More?
+1. Try connecting your prompt events to the DOM and adding some HTML/CSS to your page.
+1. Write another interactive application in your browser for running a lemonade stand.
