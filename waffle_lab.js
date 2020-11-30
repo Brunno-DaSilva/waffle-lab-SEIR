@@ -33,6 +33,7 @@ const goToStore = () => {
     "Welcome to Walmart - Do you need a Syrup or Frozen Waffles",
     "Type: Syrup or Waffles"
   );
+
   if (buyingItem === "Syrup" || buyingItem === "syrup") {
     buySyrup();
   } else if (buyingItem === "Waffles" || buyingItem === "waffles") {

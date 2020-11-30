@@ -1,4 +1,5 @@
-# Morning Lab
+# ☀️ Morning Lab ☀️
+
 # Part 1
 
 
